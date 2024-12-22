@@ -1,0 +1,55 @@
+/* Set a fixed size for the popup */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 350px; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+  overflow: auto; /* Allow scrolling if content overflows */
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Styling for the top bar */
+.top-bar {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
+
+/* Buttons container styling */
+.button-container {
+  display: inline-grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  justify-content: space-between;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Count display styling */
+.count-display {
+  padding: 10px;
+  background-color: #f8f9fa;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  overflow-wrap: break-word;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
